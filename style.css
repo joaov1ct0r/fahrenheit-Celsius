@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#transformContainer {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 10% 0 0 0;
+    background-color: #1b1b1b;
+}
+#transformContainer h1 {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+#fahrenheitContainer {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#fahrenheitInput {
+    display: block;
+    width: 20%;
+    height: 2em;
+    margin: 2% auto 0 auto;
+    border-radius: 1em;
+    text-align: center;
+}
+#inputContainer input {
+    display: block;
+    width: 20%;
+    height: 2em;
+    margin: 2% auto 0 auto;
+    border-radius: 1em;
+    text-align: center;
+}
+#celsiusInput {
+    display: block;
+    width: 20%;
+    height: 2em;
+    margin: 2% auto 0 auto;
+    border-radius: 1em;
+    text-align: center;
+}
+.displayContainer {
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+}
+.submitForm {
+    display: block;
+    height: 2em;
+    width: 10%;
+    margin: 2% auto 0 auto;
+    font-size: 1em;
+}
+.submitForm:hover {
+    background-color: black;
+    color: white;
+}
+.submitForm:active {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+#sobre {
+    background-color: rgb(105, 105, 105);
+}

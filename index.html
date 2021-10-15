@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>celsius & fahrenheit:</title>
+    </head>
+    <body>
+        <div id="transformContainer">
+            <h1>Celsius & Fahrenheit</h1>
+            <div id="fahrenheitForm">
+                <input
+                    type="text"
+                    id="fahrenheitInput"
+                    placeholder="C° to F°"
+                />
+                <p class="displayContainer" id="fahrenheitDisplay">
+                    (CELSIUS × 9/5) + 32 = FAHRENHEIT
+                </p>
+                <button class="submitForm" type="submit" id="submitFahrenheit">
+                    CONVERTER
+                </button>
+            </div>
+            <div id="celsiusForm">
+                <input type="text" id="celsiusInput" placeholder="F° to C°" />
+                <p class="displayContainer" id="celsiusDisplay">
+                    (FAHRENHEIT - 32) * 5/9 = CELSIUS
+                </p>
+                <button class="submitForm" type="submit" id="submitCelsius">
+                    CONVERTER
+                </button>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+    <footer id="sobre">
+        <hr />
+        <p>
+            Developed by
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-71649a203/"
+                >João Victor</a
+            >
+        </p>
+    </footer>
+</html>
