@@ -5,7 +5,7 @@
 <p>O projeto fahrenheit / celsius consiste em dois input's, em um você ao clicar no botão 'converter' você consegue transformar celsius em fahrenheit, no segundo ao clicar no botão 'converter' você transforma fahrenheit em celsius.</p>
 
 <h2>Link</h2>
-https://inspiring-tesla-0b7ab6.netlify.app/
+<a href='https://inspiring-tesla-0b7ab6.netlify.app/'>fahrenheit / celsius</a>
 
 <h2>Picture</h2>
 
